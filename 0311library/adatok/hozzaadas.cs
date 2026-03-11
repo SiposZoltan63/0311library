@@ -1,6 +1,9 @@
-﻿using System;
+﻿using _0311library.megjelenit;
+using Pomelo.EntityFrameworkCore.MySql.Storage.Internal;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,13 +11,16 @@ namespace _0311library.adatok
 {
     internal class hozzaadas
     {
-        public object CreateAuthor(string name)
+        public object ujhozzaad(string title,int author,int year,int price)
         {
             using (var context = new konyvtardbContext())
             {
-                var books = new Books
+                var books = new ujhozzaad
                 {
-                    AuthorName = name
+                    Title = title,
+                    Author = author,
+                    Year = year,
+                    price = price,
                 };
                 context.Authors.Add(books);
                 context.SaveChanges();
