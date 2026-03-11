@@ -19,12 +19,11 @@ namespace _0311library
     /// </summary>
     public partial class library : Window
     {
-         = new Read();
-        CreateAuthors createAuthors = new CreateAuthors();
+        
         public library()
         {
             InitializeComponent();
-            _mainWindow = mainWindow;
+            //_mainWindow = mainWindow;
         }
     }
 }

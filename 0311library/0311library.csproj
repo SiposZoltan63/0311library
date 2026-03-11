@@ -148,7 +148,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="library.xaml">
+    <Page Include="megjelenit\library.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -156,11 +156,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="adatok\hozzaadas.cs" />
+    <Compile Include="adatok\megjelenites.cs" />
+    <Compile Include="adatok\modositas.cs" />
+    <Compile Include="adatok\torol.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="library.xaml.cs">
+    <Compile Include="megjelenit\library.xaml.cs">
       <DependentUpon>library.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
@@ -190,6 +194,7 @@
     <Compile Include="megjelenit\ujhozzaad.xaml.cs">
       <DependentUpon>ujhozzaad.xaml</DependentUpon>
     </Compile>
+    <Compile Include="modelek\konyvtardbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -216,6 +221,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

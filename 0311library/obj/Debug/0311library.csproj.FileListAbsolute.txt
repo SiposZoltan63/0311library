@@ -7,3 +7,4 @@ C:\Users\siposz\Gitwork\0311library\0311library\obj\Debug\megjelenit\ujhozzaad.g
 C:\Users\siposz\Gitwork\0311library\0311library\obj\Debug\App.g.cs
 C:\Users\siposz\Gitwork\0311library\0311library\obj\Debug\0311library_MarkupCompile.cache
 C:\Users\siposz\Gitwork\0311library\0311library\obj\Debug\0311library_MarkupCompile.lref
+C:\Users\siposz\Gitwork\0311library\0311library\obj\Debug\megjelenit\library.g.cs
