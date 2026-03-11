@@ -1,0 +1,9 @@
+C:\Users\siposz\Gitwork\0311library\0311library\obj\Debug\0311library.csproj.AssemblyReference.cache
+C:\Users\siposz\Gitwork\0311library\0311library\obj\Debug\library.g.cs
+C:\Users\siposz\Gitwork\0311library\0311library\obj\Debug\MainWindow.g.cs
+C:\Users\siposz\Gitwork\0311library\0311library\obj\Debug\megjelenit\modosit.g.cs
+C:\Users\siposz\Gitwork\0311library\0311library\obj\Debug\megjelenit\torles.g.cs
+C:\Users\siposz\Gitwork\0311library\0311library\obj\Debug\megjelenit\ujhozzaad.g.cs
+C:\Users\siposz\Gitwork\0311library\0311library\obj\Debug\App.g.cs
+C:\Users\siposz\Gitwork\0311library\0311library\obj\Debug\0311library_MarkupCompile.cache
+C:\Users\siposz\Gitwork\0311library\0311library\obj\Debug\0311library_MarkupCompile.lref
