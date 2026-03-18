@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _0311library.megjelenit;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,11 +20,13 @@ namespace _0311library
     /// </summary>
     public partial class library : Window
     {
-        
-        public library()
+        //Read read = new Read();
+        ujhozzaad createBooks = new ujhozzaad();
+        private readonly MainWindow _mainWindow;
+        public library(MainWindow mainWindow)
         {
             InitializeComponent();
-            //_mainWindow = mainWindow;
+            _mainWindow = mainWindow;
         }
     }
 }

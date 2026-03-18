@@ -194,7 +194,9 @@
     <Compile Include="megjelenit\ujhozzaad.xaml.cs">
       <DependentUpon>ujhozzaad.xaml</DependentUpon>
     </Compile>
+    <Compile Include="modelek\Books.cs" />
     <Compile Include="modelek\konyvtardbContext.cs" />
+    <Compile Include="modelek\konyvtarResults.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="modosit" Height="450" Width="800">
     <Grid>
-        
+        <DataGrid Width="750" Height="200" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="25,10,25,224"/>
     </Grid>
 </Window>

@@ -11,7 +11,7 @@ namespace _0311library.modelek
         public int Id { get; set; }
         public string Title { get; set; }
         public string Author { get; set; }
-        public int? Year { get; set; }
-        public int? Price { get; set; }
+        public int Year { get; set; }
+        public int Price { get; set; }
     }
 }
