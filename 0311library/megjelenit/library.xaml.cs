@@ -1,5 +1,4 @@
-﻿using _0311library.megjelenit;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,14 +10,15 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace _0311library
+namespace _0311library.megjelenit
 {
     /// <summary>
     /// Interaction logic for library.xaml
     /// </summary>
-    public partial class library : Window
+    public partial class library : Page
     {
         //Read read = new Read();
         ujhozzaad createBooks = new ujhozzaad();

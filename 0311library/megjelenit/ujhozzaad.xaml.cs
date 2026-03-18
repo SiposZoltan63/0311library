@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -27,10 +26,9 @@ namespace _0311library.megjelenit
         {
             InitializeComponent();
         }
-
         private void hozzaadgomb_Click(object sender, RoutedEventArgs e)
         {
-            create.CreateBooks(ujhozzaadTitle.Text,ujhozzaadAuthor.Text,int.Parse(ujhozzaadYear.Text),int.Parse(ujhozzaadPrice.Text));
+            create.CreateBooks(ujhozzaadTitle.Text, ujhozzaadAuthor.Text, int.Parse(ujhozzaadYear.Text), int.Parse(ujhozzaadPrice.Text));
         }
     }
 }
