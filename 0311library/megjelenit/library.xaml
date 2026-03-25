@@ -9,9 +9,12 @@
       Title="library">
 
     <Grid Background="White">
-        <DataGrid Width="750" Height="200" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="25,10,25,224"/>
-        <Button Content="új hozzáadás" HorizontalAlignment="Left" Margin="25,249,0,0" VerticalAlignment="Top" Height="44" Width="104"/>
-        <Button Content="törlés" HorizontalAlignment="Center" Margin="0,249,0,0" VerticalAlignment="Top" Height="44" Width="104"/>
-        <Button Content="módosítás" HorizontalAlignment="Left" Margin="671,249,0,0" VerticalAlignment="Top" Height="44" Width="104"/>
+       
+            <Button Content="törlés" Height="44" Width="104" Click="Delete_Click" Margin="656,249,40,157"/>
+            <Button Content="új hozzáadás" Height="44" Width="104" Click="ujhozzadas_Click" Margin="348,254,348,152"/>
+            <Button Content="módosítás" Height="44" Width="104" Click="modosit_Click" Margin="34,254,662,152"/>
+       
+        <DataGrid Name="datagrid1" Width="750" Height="200" Margin="25,10,25,224"/>
+
     </Grid>
 </Page>
