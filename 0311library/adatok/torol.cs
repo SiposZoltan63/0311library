@@ -21,11 +21,11 @@ namespace _0311library.adatok
                 {
                     context.Books.Remove(book);
                     context.SaveChanges();
-                    results.Message = "Sikeres törlés";
+                    results.Message = "Törölve";
                     results.Result = book;
                     return results;
                 }
-                results.Message = "Sikertelen törlés";
+                results.Message = "Nincs törölve";
                 results.Result = book;
                 return results;
             }

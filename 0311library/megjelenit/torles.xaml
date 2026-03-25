@@ -9,9 +9,7 @@
       Title="torles">
 
     <Grid Background="White">
-        <DataGrid Height="200" Name="datagrid63" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,0,234"/>
-        <StackPanel Height="200px" Margin="0,225,0,25">
-            <Button Content="Töröl" Width="104" Height="44" Click="Torol_Click"/>
-        </StackPanel>
+        <DataGrid Height="200" Name="datagrid63" AutoGenerateColumns="True" IsReadOnly="True" 
+      ToolTip="Dupla katt-ra törli a rekordot." d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,0,234" MouseDoubleClick="datagrid63_MouseDoubleClick"/>
     </Grid>
 </Page>

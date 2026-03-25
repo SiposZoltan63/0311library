@@ -29,14 +29,22 @@ namespace _0311library.megjelenit
             InitializeComponent();
             datagrid63.ItemsSource = read.ReadBooks();
         }
-
-        private void Torol_Click(object sender, RoutedEventArgs e)
+        private void datagrid63_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             var record = datagrid63.CurrentItem as Books;
             var book = delete.DeleteBook(record.Id) as konyvtarResults;
             MessageBox.Show(book.Message);
             datagrid63.ItemsSource = read.ReadBooks();
-            delete.DeleteBook(record.Id);
         }
+
+        private void dataGrid2_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
+        {
+            if (e.PropertyType.IsClass && e.PropertyType != typeof(string))
+            {
+                e.Cancel = true;
+            }
+        }
+
+        
     }
 }
